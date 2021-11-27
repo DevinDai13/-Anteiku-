@@ -5,8 +5,8 @@ class Navbar extends React.Component{
     render(){
         return(
             <nav className="flex justify-between items-center h-16 text-black relative shadow font-mono">
-                <h1 to='/' className="pl-8">
-                    Anteiku
+                <h1 to='/' className="pl-8 font-bold">
+                    あんていく
                 </h1>
                 <div className="px-4 cursor-pointer md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -14,10 +14,10 @@ class Navbar extends React.Component{
                     </svg>
                 </div>
                 <div className="pr-8 md:block hidden" onClick={this.props.handleOpen}>
-                    <button className="p-4" href='#'>Home</button>
-                    <button className="p-4" href='#'>Menu</button>
-                    <button className="p-4" href='#'>About</button>
-                    <button className="p-4" href='#'>Contact</button>
+                    <button className="p-4 hover:bg-gray-50 rounded" href='#'>Home</button>
+                    <button className="p-4 hover:bg-gray-50 rounded" href='#'>Menu</button>
+                    <button className="p-4 hover:bg-gray-50 rounded" href='#'>About</button>
+                    <button className="p-4 hover:bg-gray-50 rounded" href='#'>Contact</button>
                 </div>    
             </nav>
     

@@ -3,8 +3,8 @@ import React from "react";
 class MainContent extends React.Component{
     render(){
         return(
-            <div className="bg-white h-screen flex flex-col justify-center items-center">
-                <h1 className="lg:text-16xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">あんていく</h1>
+            <div className="bg-gradient-to-l md:bg-gradient-to-r">
+                <img src="https://cdnb.artstation.com/p/assets/images/images/035/798/583/large/gabriel-peicic-5shot.jpg?1615925077" alt="1" />
             </div>
         )
     }
