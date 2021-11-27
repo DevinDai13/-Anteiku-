@@ -4,6 +4,7 @@ import Navbar from './Components/navbar';
 import MainContent from './Components/mainContent'
 import Footer from './Components/footer'
 import Dropdown from './Components/dropdown'
+import Grid from './Components/grid'
 
 class App extends React.Component {
   state = {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Navbar handleOpen={this.handleOpen}/>
         <Dropdown open={this.state.open} handleOpen={this.handleOpen}/>
         <MainContent />
+        <Grid />
         <Footer />
       </>
     )
