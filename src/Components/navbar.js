@@ -4,7 +4,7 @@ class Navbar extends React.Component{
 
     render(){
         return(
-            <nav className="flex justify-between items-center h-16 text-black fixed shadow font-mono">
+            <nav className="flex justify-between items-center h-16 text-black relative shadow font-mono">
                 <h1 to='/' className="pl-8 font-bold">
                     あんていく
                 </h1>
