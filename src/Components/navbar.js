@@ -23,7 +23,7 @@ const Navbar = ({toggle}) => {
                 <Link className="p-4 hover:bg-gray-100 rounded" to={MENU_URL}>Menu</Link>
                 <Link className="p-4 hover:bg-gray-100 rounded" to={ABOUT_URL}>About</Link>
                 <Link className="p-4 hover:bg-gray-100 rounded" to={CONTACT_URL}>Contact</Link>
-            </div>    
+            </div>
         </nav>
 
     );
