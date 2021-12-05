@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './navbar.css';
 import {
     HOME_URL,
     MENU_URL,
@@ -7,8 +8,9 @@ import {
     CONTACT_URL,
   } from "../url"
 
-const Navbar = ({toggle}) => {
+const Navbar = ({isOpen, toggle}) => {
     return(
+        <>
         <nav className="flex justify-between items-center h-16 text-black relative shadow font-mono">
             <Link to={HOME_URL} className="pl-8 font-bold">
                 あんていく
@@ -19,12 +21,28 @@ const Navbar = ({toggle}) => {
                 </svg>
             </div>
             <div className="pr-8 md:block hidden">
-                <Link className="p-4 hover:bg-gray-100 rounded" to={HOME_URL}>Home</Link>
-                <Link className="p-4 hover:bg-gray-100 rounded" to={MENU_URL}>Menu</Link>
-                <Link className="p-4 hover:bg-gray-100 rounded" to={ABOUT_URL}>About</Link>
-                <Link className="p-4 hover:bg-gray-100 rounded" to={CONTACT_URL}>Contact</Link>
+                <Link className="p-4 hover:bg-gray-100 rounded focus:ring-2 focus:ring-blue-600" to={HOME_URL}>Home</Link>
+                <Link className="p-4 hover:bg-gray-100 rounded focus:ring-2 focus:ring-blue-600" to={MENU_URL}>Menu</Link>
+                <Link className="p-4 hover:bg-gray-100 rounded focus:ring-2 focus:ring-blue-600" to={ABOUT_URL}>About</Link>
+                <Link className="p-4 hover:bg-gray-100 rounded focus:ring-2 focus:ring-blue-600" to={CONTACT_URL}>Contact</Link>
             </div>
         </nav>
+
+        <div className={isOpen ? "navbar-open" : "hidden"}>
+            <nav>
+                <h1 className="pl-8 font-bold my-10 items-center justify-center">
+                    あんていく
+                </h1>
+                <ul>
+                    <li className="p-4 "><Link className="p-6" to={HOME_URL}>Home</Link></li>
+                    <li className="p-4 "><Link className="p-6" to={MENU_URL}>Menu</Link></li>
+                    <li className="p-4 "><Link className="p-6" to={ABOUT_URL}>About</Link></li>
+                    <li className="p-4 "><Link className="p-6" to={CONTACT_URL}>Contact</Link></li>
+                </ul>
+            </nav>
+        </div>
+        
+        </>
 
     );
 };

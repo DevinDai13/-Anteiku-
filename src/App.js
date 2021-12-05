@@ -2,7 +2,6 @@ import './App.css';
 import React, {useState, useEffect} from "react";
 import Navbar from './Components/navbar';
 import Footer from './Components/footer';
-import Dropdown from './Components/dropdown';
 import {Routes, Route} from 'react-router';
 import Menu from './Pages/menu.js';
 import Contact from './Pages/contact.js';
@@ -33,8 +32,8 @@ function App () {
 
   return (
     <>
-      <Navbar toggle={toggle}/>
-      <Dropdown isOpen={isOpen} toggle={toggle}/>
+      <Navbar isOpen={isOpen} toggle={toggle}/>
+      {/*<Dropdown isOpen={isOpen} toggle={toggle}/>*/}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/menu" element={<Menu />} />
