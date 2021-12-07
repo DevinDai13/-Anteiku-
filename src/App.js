@@ -8,7 +8,6 @@ import Contact from './Pages/contact.js';
 import About from './Pages/about.js';
 import Home from './Pages/home.js';
 
-
 function App () {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -33,7 +32,6 @@ function App () {
   return (
     <>
       <Navbar isOpen={isOpen} toggle={toggle}/>
-      {/*<Dropdown isOpen={isOpen} toggle={toggle}/>*/}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/menu" element={<Menu />} />
