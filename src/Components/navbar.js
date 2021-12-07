@@ -30,7 +30,7 @@ const Navbar = ({isOpen, toggle}) => {
 
         <div className={isOpen ? "navbar-open" : "hidden"}>
             <nav>
-                <h1 className="pl-8 font-bold my-10 items-center justify-center">
+                <h1 className="pl-8 font-bold my-10 items-center justify-center border-2 border-indigo-300">
                     あんていく
                 </h1>
                 <ul>
