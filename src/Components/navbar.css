@@ -7,6 +7,6 @@
     position: fixed;
     top: 0;
     transform: translateX(0%);
-    transition: 350ms;
+    transition: 750ms;
     z-index: 1;
 }
