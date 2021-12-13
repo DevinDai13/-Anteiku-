@@ -9,4 +9,5 @@
     transform: translateX(0%);
     transition: 750ms;
     z-index: 1;
+    overflow: auto
 }
