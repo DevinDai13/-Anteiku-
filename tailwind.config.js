@@ -9,12 +9,9 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      emerald: colors.emerald,
-      indigo: colors.indigo,
       yellow: colors.yellow,
-      cyan: colors.cyan,
       sky: colors.sky,
-      Zinc: colors.zinc
+      gray: colors.gray,
     },
     extend: {
       borderRadius: {

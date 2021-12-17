@@ -1,10 +1,11 @@
 import React from "react";
+import bg from "../Images/bg.png";
 
 const MainContent = () =>{
     return(
-        <div className="flex bg-gray-300 min-h-screen">
-            <div className="flex justify-center items-center ml-20 mb-20 mr-20 bg-gray-300">
-                <img className="rounded-tr-Large rounded-bl-Large" src="https://cdnb.artstation.com/p/assets/images/images/035/798/583/large/gabriel-peicic-5shot.jpg?1615925077" alt="1" />
+        <div className="flex min-h-screen">
+            <div className="flex justify-center items-center">
+                <img className="" src={bg} alt="1" />
             </div>
         </div>
         

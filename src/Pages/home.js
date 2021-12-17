@@ -1,11 +1,21 @@
 import React from "react";
-import MainContent from '../Components/mainContent'
+import MainContent from '../Components/mainContent';
 import Grid from '../Components/grid';
 import Characters from "../Components/characters";
+import snow from "../Images/snow.jpg";
+
+const mystyle = {
+  backgroundImage: `url(${ snow })`,
+  backgroundRepeat  : 'repeat',
+  backgroundPosition: 'center',
+  backgroundSize: 'contain',
+  minHeight: '100%',
+  backgroundAttachment: 'fixed'
+};
 
 function Home () {
   return (
-    <div className="bg-gray-300 min-h-screen">
+    <div style={mystyle}>
       <MainContent/>
       <Characters />
       <Grid />
