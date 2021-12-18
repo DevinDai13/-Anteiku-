@@ -3,7 +3,7 @@ import React from "react";
 const Characters = () =>{
     return(
         <>
-            <div className="m-40">
+            <div className="mt-40 mb-40">
             <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-gray-700">
                 <div class="md:flex">
                         <div class="md:shrink-0">
@@ -37,7 +37,6 @@ const Characters = () =>{
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )
