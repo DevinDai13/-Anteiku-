@@ -68,7 +68,7 @@ const Grid = () =>{
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
-                    <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                    <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                         Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                     </p>
                     </div>
@@ -113,7 +113,7 @@ const Grid = () =>{
                         </div>
                         {/*body*/}
                         <div className="relative p-6 flex-auto">
-                        <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                        <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                             Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                         </p>
                         </div>
@@ -158,7 +158,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -202,7 +202,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -246,7 +246,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -290,7 +290,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -334,7 +334,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -378,7 +378,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>
@@ -422,7 +422,7 @@ const Grid = () =>{
                             </div>
                             {/*body*/}
                             <div className="relative p-6 flex-auto">
-                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                            <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-mono">
                                 Food texture is defined as those properties of a food that are sensed by touch in the mouth and with the hands
                             </p>
                             </div>

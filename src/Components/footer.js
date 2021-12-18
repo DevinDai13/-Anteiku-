@@ -24,7 +24,6 @@ const Footer = () =>{
                 <div className="p-5 w-48">
                     <Link className="text-xs uppercase text-white font-medium" to={CONTACT_URL}>Contact</Link>
                 </div>
-                
             </div> 
         </div>
 
