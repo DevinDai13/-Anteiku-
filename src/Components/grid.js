@@ -13,7 +13,7 @@ const Grid = () =>{
 
     return(
         <>
-        <div className="mt-24 mb-0">
+        <div className="mt-0 mb-0">
             <div className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center p-5" >
                 <div className="flex justify-center text-4xl rounded-xl p-3 bg-white-100 cursor-pointer hover:bg-gray-100 transform transition duration-350 hover:scale-105">
                     <img className="rounded-tr-Large rounded-bl-Large" src="https://pbs.twimg.com/media/Do73TSDU4AEgQLr.jpg" alt="1" onClick={() => setShowModal1(true)}/>

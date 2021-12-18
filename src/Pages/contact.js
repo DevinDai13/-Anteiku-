@@ -1,13 +1,24 @@
 import React from "react";
+import snow from "../Images/snow.jpg";
+import cafe from "../Images/Anteiku.jpg";
   
-function Contact(){
-    return(
-        <div className="h-screen flex justify-center items-center bg-yellow-300">
-            <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl uppercase font-black">
-                Contact
-            </h1>
-        </div>        
+const mystyle = {
+    backgroundImage: `url(${ snow })`,
+    backgroundRepeat  : 'repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'contain',
+    minHeight: '100%',
+    backgroundAttachment: 'fixed'
+  };
+  
+  function Contact () {
+    return (
+        <div style={mystyle}>
+            <div className="flex justify-center items-center">
+                <img className="h-80 w-120 justify-center items-center" src={cafe} alt="1" />
+            </div>
+        </div>
     )
-}
+  }
 
 export default Contact

@@ -1,6 +1,5 @@
 import React from "react";
 import MainContent from '../Components/mainContent';
-import Grid from '../Components/grid';
 import Characters from "../Components/characters";
 import snow from "../Images/snow.jpg";
 
@@ -18,7 +17,6 @@ function Home () {
     <div style={mystyle}>
       <MainContent/>
       <Characters />
-      <Grid />
     </div>
   )
 }

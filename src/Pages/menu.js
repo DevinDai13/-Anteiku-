@@ -1,13 +1,22 @@
 import React from "react";
+import Grid from '../Components/grid';
+import snow from "../Images/snow.jpg";
   
-function Menu(){
-    return(
-        <div className="h-screen flex justify-center items-center bg-yellow-300">
-            <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl uppercase font-black">
-                Menu
-            </h1>
-        </div>        
+const mystyle = {
+    backgroundImage: `url(${ snow })`,
+    backgroundRepeat  : 'repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'contain',
+    minHeight: '100%',
+    backgroundAttachment: 'fixed'
+  };
+  
+  function Menu () {
+    return (
+      <div style={mystyle}>
+        <Grid/>
+      </div>
     )
-}
+  }
 
 export default Menu
