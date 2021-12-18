@@ -4,7 +4,7 @@ const Characters = () =>{
     return(
         <>
             <div className="m-40">
-            <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-4xl bg-gray-700">
+            <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-gray-700">
                 <div class="md:flex">
                         <div class="md:shrink-0">
                             <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://numeralpaint.com/wp-content/uploads/2020/07/kaneki-tokyo-ghoul-adult-paint-by-numbers.jpg" alt="1"></img>
@@ -15,9 +15,9 @@ const Characters = () =>{
                         </div>
                     </div>
                 </div>
-                <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-4xl bg-gray-700">
+                <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-gray-700">
                     <div class="md:flex">
-                    <div class="md:shrink-0">
+                        <div class="md:shrink-0">
                             <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://images6.fanpop.com/image/photos/39400000/Touka-kirishima-touka-kirishima-39481726-1280-720.png" alt="1"></img>
                         </div>
                         <div class="p-8">
@@ -26,7 +26,7 @@ const Characters = () =>{
                         </div>
                     </div>
                 </div>
-                <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-4xl bg-gray-700">
+                <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-gray-700">
                     <div class="md:flex">
                         <div class="md:shrink-0">
                             <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/06/Hide-in-Tokyo-Ghoul-re.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5" alt="1"></img>
