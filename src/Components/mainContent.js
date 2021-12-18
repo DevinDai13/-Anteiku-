@@ -5,7 +5,7 @@ const MainContent = () =>{
     return(
         <div className="flex min-h-screen">
             <div className="flex justify-center items-center">
-                <img className="" src={bg} alt="1" />
+                <img className="object-cover" src={bg} alt="1" />
             </div>
         </div>
         
