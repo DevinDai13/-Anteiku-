@@ -14,7 +14,7 @@ const mystyle = {
 
 function Home () {
   return (
-    <div style={mystyle}>
+    <div style={mystyle} className="animate-fade-in-down">
       <MainContent/>
       <Characters />
     </div>
