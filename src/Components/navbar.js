@@ -28,8 +28,8 @@ const Navbar = ({isOpen, toggle}) => {
             </div>
         </nav>
 
-        <div className={isOpen ? "navbar-open" : "hidden"}>
-            <nav className="transition ease-in-out duration-700">
+        <div className={isOpen ? "navbar-open animate-fade-in-down" : "hidden"}>
+            <nav className="transition ease-in-out duration-700 animate-fade-in-down">
                 <h1 className="pl-8 font-bold my-10 items-center justify-center border-2 border-indigo-300">
                     あんていく
                 </h1>
