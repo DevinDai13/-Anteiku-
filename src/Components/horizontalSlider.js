@@ -5,19 +5,19 @@ const HorizontalSlider = () =>{
     return(
         <div className="wrapper">
             <div className="item">
-                Item 1
+                Appetizers
             </div>
             <div className="item">
-                Item 2
+                Mains
             </div>
             <div className="item">
-                Item 3
+                Desserts
             </div>
             <div className="item">
-                Item 4
+                Ramen
             </div>
             <div className="item">
-                Item 5
+                Specials
             </div>
         </div>
         
