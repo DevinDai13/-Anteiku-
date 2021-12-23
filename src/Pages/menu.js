@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from '../Components/grid';
 import snow from "../Images/snow.jpg";
+import HorizontalSlider from "../Components/horizontalSlider";
   
 const mystyle = {
     backgroundImage: `url(${ snow })`,
@@ -15,6 +16,7 @@ const mystyle = {
     return (
       <>
         <div style={mystyle}>
+          <HorizontalSlider/>
           <Grid/>
         </div>
       </>
