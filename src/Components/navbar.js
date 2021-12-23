@@ -20,7 +20,7 @@ const Navbar = ({isOpen, toggle}) => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </div>
-            <div className="pr-8 md:block hidden">
+            <div className="pr-8 animate-fade-in-down md:block hidden">
                 <Link className="text-white p-4 hover:bg-gray-500 rounded focus:ring-2 focus:ring-blue-600" to={HOME_URL}>Home</Link>
                 <Link className="text-white p-4 hover:bg-gray-500 rounded focus:ring-2 focus:ring-blue-600" to={MENU_URL}>Menu</Link>
                 <Link className="text-white p-4 hover:bg-gray-500 rounded focus:ring-2 focus:ring-blue-600" to={ABOUT_URL}>About</Link>
@@ -30,9 +30,6 @@ const Navbar = ({isOpen, toggle}) => {
 
         <div className={isOpen ? "navbar-open animate-fade-in-down" : "hidden"}>
             <nav className="transition ease-in-out duration-700 animate-fade-in-down">
-                <h1 className="pl-8 font-bold my-10 items-center justify-center border-2 border-indigo-300">
-                    あんていく
-                </h1>
                 <ul>
                     <li className="p-4">
                         <Link className="p-6 flex hover:bg-gray-300 rounded-lg" to={HOME_URL}>

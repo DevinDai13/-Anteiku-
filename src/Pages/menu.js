@@ -13,9 +13,13 @@ const mystyle = {
   
   function Menu () {
     return (
-      <div style={mystyle}>
-        <Grid/>
-      </div>
+      <>
+        <div style={mystyle}>
+          <Grid/>
+        </div>
+      </>
+      
+
     )
   }
 
