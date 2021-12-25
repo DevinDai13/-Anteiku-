@@ -1,19 +1,65 @@
-.wrapper{
+.wrapperFood{
     max-height: 100px;
-    border: 1px solid black;
     display: flex;
     overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 47px;
 }
 
-.wrapper::-webkit-scrollbar{
+.wrapperFood::-webkit-scrollbar{
     width: 0;
 }
 
-.wrapper .item{
+.wrapperFood .item{
     min-width:450px;
     height:90px;
     line-height: 90px;
     text-align: center;
-    background-color: #181818;
-    color: white;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.wrapperDrinks{
+    max-height: 100px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+.wrapperDrinks::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapperDrinks .item{
+    min-width:450px;
+    height:90px;
+    line-height: 90px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.wrapperHappyHour{
+    max-height: 100px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+.wrapperHappyHour::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapperHappyHour .item{
+    min-width:450px;
+    height:90px;
+    line-height: 90px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
 }

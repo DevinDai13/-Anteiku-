@@ -12,7 +12,7 @@ const Navbar = ({isOpen, toggle}) => {
     return(
         <>
         <nav className="flex justify-between items-center h-16 text-black relative shadow font-mono bg-black">
-            <Link to={HOME_URL} className="pl-8 font-bold text-white">
+            <Link to={HOME_URL} className="pl-12 font-bold text-white">
                 あんていく
             </Link>
             <div className="px-4 cursor-pointer hover:bg-gray-800 rounded md:hidden" onClick={toggle}>

@@ -3,13 +3,14 @@ import MainContent from '../Components/mainContent';
 import Characters from "../Components/characters";
 import snow from "../Images/snow.jpg";
 
+//https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements
 const mystyle = {
-  backgroundImage: `url(${ snow })`,
+  backgroundImage: `linear-gradient(rgba(255,255,255,0.12), rgba(255,255,255,0.12)),url(${ snow })`,
   backgroundRepeat  : 'repeat',
   backgroundPosition: 'center',
   backgroundSize: 'contain',
   minHeight: '100%',
-  backgroundAttachment: 'fixed'
+  backgroundAttachment: 'fixed',
 };
 
 function Home () {
