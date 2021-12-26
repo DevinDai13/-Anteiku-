@@ -1,0 +1,22 @@
+.wrapperImage{
+    max-height: 300px;
+    max-width: 800px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+.wrapperImage::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapperImage .Img{
+    min-width:550px;
+    height:400px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+}

@@ -1,21 +1,42 @@
 import React from "react";
 import "./horizontalSlider.css"
 
+//https://www.youtube.com/watch?v=2_E5uoiLCLY
+
 const HorizontalSlider = () =>{
     const [showNav1, setShowNav1] = React.useState(false);
     const [showNav2, setShowNav2] = React.useState(false);
     const [showNav3, setShowNav3] = React.useState(false);
 
+    const toggle1 = () => {
+        setShowNav1(!showNav1);
+        setShowNav2(false);
+        setShowNav3(false);
+    };
+
+    const toggle2 = () => {
+        setShowNav1(false);
+        setShowNav2(!showNav2);
+        setShowNav3(false);
+    };
+
+    const toggle3 = () => {
+        setShowNav1(false);
+        setShowNav2(false);
+        setShowNav3(!showNav3);
+    };
+
+   
     return(
-        <>
-            <nav className="mt-8 ml-12 mr-12 mb-12 flex justify-between items-center h-16 text-black relative shadow font-mono bg-gray-300">
-                <div href="#0" onClick={() => setShowNav1(!showNav1)} className="text-center w-1/3 p-6 hover:bg-white bg-gray-300 focus:bg-white cursor-pointer">
+        <div>
+            <nav className="ml-12 mr-12 flex justify-between items-center h-16 text-black relative font-mono bg-transparent">
+                <div href="#0" onClick={toggle1} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
                     Food
                 </div>
-                <div href="#0" onClick={() => setShowNav2(!showNav2)} className="text-center w-1/3 p-6 hover:bg-white bg-gray-300 focus:bg-white cursor-pointer">
+                <div href="#0" onClick={toggle2} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
                     Drinks
                 </div>
-                <div href="#0" onClick={() => setShowNav3(!showNav3)} className="text-center w-1/3 p-6 hover:bg-white bg-gray-300 focus:bg-white cursor-pointer">
+                <div href="#0" onClick={toggle3} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
                     Desserts
                 </div>
             </nav>
@@ -50,7 +71,7 @@ const HorizontalSlider = () =>{
                 </div>
             ) : null}
 
-        </>
+        </div>
     )
 }
 

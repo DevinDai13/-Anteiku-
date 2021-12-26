@@ -3,7 +3,12 @@ import React from "react";
 const Characters = () =>{
     return(
         <>
-            <div className="mt-40">
+            <div>
+            <div className="flex flex-col justify-center items-center text-white">
+                <h1 className="mt-24 mb-12 lg:text-7xl md:text-5xl sm:text-3xl text-3xl font-mono">
+                    The Team
+                </h1>
+            </div>
             <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-gray-700">
                 <div class="md:flex">
                         <div class="md:shrink-0">

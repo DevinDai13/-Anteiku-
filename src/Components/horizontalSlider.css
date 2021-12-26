@@ -1,5 +1,5 @@
 .wrapperFood{
-    max-height: 100px;
+    max-height: 90px;
     display: flex;
     overflow-x: auto;
     margin-left: 47px;
@@ -26,6 +26,8 @@
     overflow-x: auto;
     margin-left: 47px;
     margin-right: 47px;
+    border-style: solid;
+
 }
 
 .wrapperDrinks::-webkit-scrollbar{
@@ -40,6 +42,7 @@
     background-color: white;
     color: black;
     text-decoration: underline;
+
 }
 
 .wrapperHappyHour{
@@ -48,6 +51,8 @@
     overflow-x: auto;
     margin-left: 47px;
     margin-right: 47px;
+    border-style: solid;
+
 }
 
 .wrapperHappyHour::-webkit-scrollbar{

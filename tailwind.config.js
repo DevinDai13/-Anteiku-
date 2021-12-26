@@ -12,6 +12,7 @@ module.exports = {
       yellow: colors.yellow,
       sky: colors.sky,
       gray: colors.gray,
+      orange: colors.orange,
     },
     extend: {
       borderRadius: {

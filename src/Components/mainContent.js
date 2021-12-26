@@ -1,11 +1,18 @@
 import React from "react";
-import bg from "../Images/bg.png";
+import bg from "../Images2/cover.jpg";
+
+const bgstyle = {
+    backgroundImage: `url(${ bg })`,
+    height: '100%', 
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
 
 const MainContent = () =>{
     return(
         <div className="flex min-h-screen">
-            <div className="flex justify-center items-center">
-                <img className="w-full object-cover md:h-full sm:object-cover justify-center items-center" src={bg} alt="1" />
+            <div style={bgstyle} className="animate-fade-in-down">
             </div>
         </div>
         
