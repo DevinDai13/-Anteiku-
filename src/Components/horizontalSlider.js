@@ -43,11 +43,9 @@ const HorizontalSlider = () =>{
 
             {showNav1 ? (
                 <div className="wrapperFood">
-                    <button className="item">Appetizers</button>
+                    <button className="item">Holiday Tasting Menus</button>
+                    <button className="item">Features</button>
                     <button className="item">Mains</button>
-                    <button className="item">Desserts</button>
-                    <button className="item">Ramen</button>
-                    <button className="item">Specials</button>
                 </div>
             ) : null}
 

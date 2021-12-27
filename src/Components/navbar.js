@@ -7,13 +7,16 @@ import {
     ABOUT_URL,
     CONTACT_URL,
   } from "../url"
+  import logo from "../Images2/logonobg.png"
 
 const Navbar = ({isOpen, toggle}) => {
     return(
         <>
-            <nav className="flex justify-between items-center h-16 text-black relative shadow font-mono bg-black">
-                <Link to={HOME_URL} className="pl-12 font-bold text-white">
-                    あんていく
+            <nav className="flex justify-between items-center h-16 text-black relative shadow bg-black">
+                <Link to={HOME_URL} className="flex font-bold text-white">
+                    <div className=" pl-12 pt-12 h-32 w-32">
+                        <img src={logo} alt="Logo" />
+                    </div>
                 </Link>
                 <div className="px-4 cursor-pointer hover:bg-gray-800 rounded md:hidden" onClick={toggle}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
