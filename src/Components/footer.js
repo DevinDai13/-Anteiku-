@@ -30,7 +30,7 @@ const Footer = () =>{
         <div className="flex justify-center items-center bg-black text-white pb-3">
             <div>
                 {'© '}
-                {"あんていく "}
+                {"Sunset Boulevard "}
                 {new Date().getFullYear()}
             </div>
         </div>
