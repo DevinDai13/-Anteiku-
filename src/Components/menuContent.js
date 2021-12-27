@@ -43,13 +43,13 @@ const MenuContent = () =>{
                 </div>
             </div>
             <div className="mb-20">
-                <h3 className="text-black font-mono text-1xl ml-12">THREE-COURSE MENU FOR TWO   $68</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, two mains, and one dessert from our curated menu.</p>
-                <button href="#" className="ml-12 text-orange-500 italic text-sm underline" onClick={() => setShowModal1(true)}>See Menu</button>
+                <h3 className="text-black font-mono text-1xl ml-12 mr-12">THREE-COURSE MENU FOR TWO   $68</h3>
+                <p className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, two mains, and one dessert from our curated menu.</p>
+                <button href="#" className="ml-12 text-orange-500 italic text-sm underline mr-12" onClick={() => setShowModal1(true)}>See Menu</button>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8">TWO-COURSE MENU FOR ONE   $35</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, and one main from our curated menu.</p>
-                <button href="#" className="ml-12 text-orange-500 italic text-sm underline" onClick={() => setShowModal2(true)}>See Menu</button>
+                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">TWO-COURSE MENU FOR ONE   $35</h3>
+                <p className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, and one main from our curated menu.</p>
+                <button href="#" className="ml-12 mr-12 text-orange-500 italic text-sm underline" onClick={() => setShowModal2(true)}>See Menu</button>
             </div>
 
 
@@ -64,14 +64,14 @@ const MenuContent = () =>{
                 </div>
             </div>
             <div className="mb-20">
-                <h3 className="text-black font-mono text-1xl ml-12">THE MED BOWL  $24¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">turmeric rice, beetroot hummus, kale, cucumber, red onion, tomatoes, macedonian feta, kalamata olives, yogurt, pickled red cabbage</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mr-12">THE MED BOWL  $24¼</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">turmeric rice, beetroot hummus, kale, cucumber, red onion, tomatoes, macedonian feta, kalamata olives, yogurt, pickled red cabbage</p>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8">BANDARA SALAD  $22</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">fresh greens, cajun chicken breast, corn, tomatoes, chopped dates, feta, chow mein noodles, honey-lime vinaigrette</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BANDARA SALAD  $22</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">fresh greens, cajun chicken breast, corn, tomatoes, chopped dates, feta, chow mein noodles, honey-lime vinaigrette</p>
             
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8">PEPPERCORN STEAK  $46</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PEPPERCORN STEAK  $46</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg ">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
             </div>
 
             <div>
@@ -85,14 +85,14 @@ const MenuContent = () =>{
                 </div>
             </div>
             <div className="mb-0">
-                <h3 className="text-black font-mono text-1xl ml-12">GRILLED DIJON SALMON  $29¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">ocean wise™ lois lake steelhead, buttered mashed potatoes, roasted asparagus, soy-dijon butter sauce, cilantro</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mr-12">GRILLED DIJON SALMON  $29¼</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">ocean wise™ lois lake steelhead, buttered mashed potatoes, roasted asparagus, soy-dijon butter sauce, cilantro</p>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8">BUTTERNUT SQUASH RAVIOLI WITH PRAWNS  $29¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">chef rob feenie’s signature butternut squash and mascarpone ravioli, truffle butter, sautéed jumbo prawns, pine nuts, crispy sage</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BUTTERNUT SQUASH RAVIOLI WITH PRAWNS  $29¼</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">chef rob feenie’s signature butternut squash and mascarpone ravioli, truffle butter, sautéed jumbo prawns, pine nuts, crispy sage</p>
             
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8">PRAWN SPAGHETTINI  $24½</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg">slow-roasted tomato sauce, chilies, fresh herbs, crostini</p>
+                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PRAWN SPAGHETTINI  $24½</h3>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">slow-roasted tomato sauce, chilies, fresh herbs, crostini</p>
             </div>
 
 

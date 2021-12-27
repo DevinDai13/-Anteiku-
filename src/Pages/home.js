@@ -40,7 +40,7 @@ function Home () {
         <p className="mb-12 lg:text-2xl md:text-2xl sm:text-1xl text-white italic">"The last week in December the rains came."</p>
       </div>
       <div style={background3style} className="animate-fade-in-down flex flex-col justify-center items-center">
-        <h1 className="mb-12 lg:text-5xl md:text-3xl sm:text-3xl text-3xl text-black">About Sunset Boulevard</h1>
+        <h1 className="mt-12 mb-12 lg:text-5xl md:text-3xl sm:text-3xl text-3xl text-black">About Sunset Boulevard</h1>
         <hr className="w-1/3" style={linestyle} />  
         <p className="mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">A TEAM OF AWARD</p>
         <p className="mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">WINNING CHEFS.</p>
@@ -48,7 +48,7 @@ function Home () {
         <p className="mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">DISHES.</p>
         <p className="mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">UNPARALLELED</p>
         <p className="mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">HOSPITALITY.</p>
-        <p className="ml-32 mr-32 mt-4 mb-2 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">Instead of just one chef, we have a whole team of celebrated Executive Chefs bringing you an experience you can’t get anywhere else. We believe in handcrafted, locally and globally inspired menu offerings.</p>
+        <p className="ml-32 mr-32 mt-4 mb-12 lg:text-2xl md:text-2xl sm:text-1xl text-black italic">Instead of just one chef, we have a whole team of celebrated Executive Chefs bringing you an experience you can’t get anywhere else. We believe in handcrafted, locally and globally inspired menu offerings.</p>
       </div>
     </>
   )
