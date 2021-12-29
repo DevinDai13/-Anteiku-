@@ -4,30 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Components/menuContent.css"
 
-const food1 = {
-    backgroundImage: `url("https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200")`,
-    height: '100%', 
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-};
-
-const food2 = {
-    backgroundImage: `url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181114130138-korean-food-2620014201204004k-jeonju-bibimbap.jpg")`,
-    height: '100%', 
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-};
-
-const food3 = {
-    backgroundImage: `url("https://www.restaurant-hospitality.com/sites/restaurant-hospitality.com/files/Kensfoods_breakoutflavors_690784532.jpg")`,
-    height: '100%', 
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-};
-
 const MenuContent = () =>{
 
     const [showModal1, setShowModal1] = React.useState(false);
