@@ -27,30 +27,31 @@ function About () {
                     </div>
                 </div>
             </div>
-            <div class="flip">
-                <div class="flip-content">
-                    <div class="flip-front">
-                        <img src="https://www.fillmurray.com/150/150" alt="1"/>
-                    </div>
-                    <div class="flip-back">
-                        <strong>BILL MURRAY</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="flip">
-                <div class="flip-content">
-                    <div class="flip-front">
-                        <img src="https://www.fillmurray.com/150/150" alt="1"/>
-                    </div>
-                    <div class="flip-back">
-                        <strong>BILL MURRAY</strong>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
-
+        <div className="m-32 flex justify-between items-center">
+            <div class="flip">
+                <div class="flip-content">
+                    <div class="flip-front">
+                        <img src="https://www.fillmurray.com/150/150" alt="1"/>
+                    </div>
+                    <div class="flip-back">
+                        <strong>BILL MURRAY</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="m-32 flex justify-between items-center">
+            <div class="flip">
+                <div class="flip-content">
+                    <div class="flip-front">
+                        <img src="https://www.fillmurray.com/150/150" alt="1"/>
+                    </div>
+                    <div class="flip-back">
+                        <strong>BILL MURRAY</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
   )
 }
