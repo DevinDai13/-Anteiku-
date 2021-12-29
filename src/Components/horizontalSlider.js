@@ -1,5 +1,6 @@
 import React from "react";
 import "./horizontalSlider.css"
+import MenuContent from "../Components/menuContent";
 
 //https://www.youtube.com/watch?v=2_E5uoiLCLY
 
@@ -42,11 +43,15 @@ const HorizontalSlider = () =>{
             </nav>
 
             {showNav1 ? (
-                <div className="wrapperFood">
-                    <button className="item">Holiday Tasting Menus</button>
-                    <button className="item">Features</button>
-                    <button className="item">Mains</button>
-                </div>
+                <>
+                    <div className="wrapperFood">
+                        <button className="item">Holiday Tasting Menus</button>
+                        <button className="item">Features</button>
+                        <button className="item">Mains</button>
+                    </div>
+                    <MenuContent />
+                </>
+                
             ) : null}
 
             {showNav2 ? (

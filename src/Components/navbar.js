@@ -10,12 +10,11 @@ import {
   import logo from "../Images2/logonobg.png"
 
 const Navbar = ({isOpen, toggle}) => {
-
     return(
         <>
             <nav className="flex justify-between items-center h-16 text-black relative shadow bg-black">
                 <Link to={HOME_URL} className="flex font-bold text-white">
-                    <div className=" pl-12 pt-12 h-32 w-32">
+                    <div className="pl-12 pt-12 h-32 w-32">
                         <img src={logo} alt="Logo" />
                     </div>
                 </Link>

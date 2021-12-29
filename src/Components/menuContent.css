@@ -20,3 +20,24 @@
     color: black;
     margin-right: 5px;
 }
+
+#slides {
+    height:400px;
+    min-width:550px;
+    display: block;
+    margin: auto;
+}
+
+.slick-arrow {
+    color: black;
+}
+
+.slick-prev {
+    z-index: 100;
+    left: 20px !important;
+}
+
+.slick-next {
+    z-index: 100;
+    right: 20px !important;
+}

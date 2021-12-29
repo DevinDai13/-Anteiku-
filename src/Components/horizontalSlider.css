@@ -21,7 +21,7 @@
 }
 
 .wrapperDrinks{
-    max-height: 100px;
+    max-height: 90px;
     display: flex;
     overflow-x: auto;
     margin-left: 47px;
@@ -46,7 +46,7 @@
 }
 
 .wrapperHappyHour{
-    max-height: 100px;
+    max-height: 90px;
     display: flex;
     overflow-x: auto;
     margin-left: 47px;

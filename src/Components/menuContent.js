@@ -1,5 +1,8 @@
 import React from "react";
-import "./menuContent.css"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import "../Components/menuContent.css"
 
 const food1 = {
     backgroundImage: `url("https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200")`,
@@ -29,18 +32,32 @@ const MenuContent = () =>{
 
     const [showModal1, setShowModal1] = React.useState(false);
     const [showModal2, setShowModal2] = React.useState(false);
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+
 
     return(
         <>
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Holiday Tasting Menus</h1>
             </div>
-            <div className="flex h-80">
-                <div className="wrapperImage">
-                    <div className="Img" style={food1}></div>
-                    <div className="Img" style={food2}></div>
-                    <div className="Img" style={food3}></div>
-                </div>
+            <div className="mb-12">
+                <Slider {...settings}>
+                    <div>
+                        <img id="slides" src={"https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181114130138-korean-food-2620014201204004k-jeonju-bibimbap.jpg"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://www.restaurant-hospitality.com/sites/restaurant-hospitality.com/files/Kensfoods_breakoutflavors_690784532.jpg"} alt="1"></img>
+                    </div>
+                </Slider>
             </div>
             <div className="mb-20">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">THREE-COURSE MENU FOR TWO   $68</h3>
@@ -56,12 +73,18 @@ const MenuContent = () =>{
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Features</h1>
             </div>
-            <div className="flex h-80">
-                <div className="wrapperImage">
-                    <div className="Img" style={food3}></div>
-                    <div className="Img" style={food2}></div>
-                    <div className="Img" style={food1}></div>
-                </div>
+            <div className="mb-12">
+                <Slider {...settings}>
+                    <div>
+                        <img id="slides" src={"https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181114130138-korean-food-2620014201204004k-jeonju-bibimbap.jpg"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://www.restaurant-hospitality.com/sites/restaurant-hospitality.com/files/Kensfoods_breakoutflavors_690784532.jpg"} alt="1"></img>
+                    </div>
+                </Slider>
             </div>
             <div className="mb-20">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">THE MED BOWL  $24¼</h3>
@@ -71,18 +94,24 @@ const MenuContent = () =>{
                 <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">fresh greens, cajun chicken breast, corn, tomatoes, chopped dates, feta, chow mein noodles, honey-lime vinaigrette</p>
             
                 <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PEPPERCORN STEAK  $46</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg ">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
+                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
             </div>
 
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Mains</h1>
             </div>
-            <div className="flex h-80">
-                <div className="wrapperImage">
-                    <div className="Img" style={food2}></div>
-                    <div className="Img" style={food3}></div>
-                    <div className="Img" style={food1}></div>
-                </div>
+            <div className="mb-12">
+                <Slider {...settings}>
+                    <div>
+                        <img id="slides" src={"https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181114130138-korean-food-2620014201204004k-jeonju-bibimbap.jpg"} alt="1"></img>
+                    </div>
+                    <div>
+                        <img id="slides" src={"https://www.restaurant-hospitality.com/sites/restaurant-hospitality.com/files/Kensfoods_breakoutflavors_690784532.jpg"} alt="1"></img>
+                    </div>
+                </Slider>
             </div>
             <div className="mb-0">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">GRILLED DIJON SALMON  $29¼</h3>
