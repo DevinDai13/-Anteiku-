@@ -22,7 +22,7 @@ const DrinkContent = () =>{
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">New and Seasonal</h1>
             </div>
-            <div className="mb-12">
+            <div className="mb-12 w3-animate-top">
                 <Slider {...settings}>
                     <div>
                         <img id="slides" src={"https://www.tasteofhome.com/wp-content/uploads/2019/04/Yellow-Hammer.jpg?resize=700,700"} alt="1"></img>
@@ -35,7 +35,7 @@ const DrinkContent = () =>{
                     </div>
                 </Slider>
             </div>
-            <div className="mb-20">
+            <div className="mb-20 w3-animate-left">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">THREE-COURSE MENU FOR TWO   $68</h3>
                 <p className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, two mains, and one dessert from our curated menu.</p>
                 <button href="#" className="ml-12 text-orange-500 italic text-sm underline mr-12" onClick={() => setShowModal1(true)}>See Menu</button>
@@ -49,7 +49,7 @@ const DrinkContent = () =>{
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Cocktails</h1>
             </div>
-            <div className="mb-12">
+            <div className="mb-12 w3-animate-top">
                 <Slider {...settings}>
                     <div>
                         <img id="slides" src={"https://www.tasteofhome.com/wp-content/uploads/2019/04/Yellow-Hammer.jpg?resize=700,700"} alt="1"></img>
@@ -62,7 +62,7 @@ const DrinkContent = () =>{
                     </div>
                 </Slider>
             </div>
-            <div className="mb-20">
+            <div className="mb-20 w3-animate-left">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">THE MED BOWL  $24¼</h3>
                 <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">turmeric rice, beetroot hummus, kale, cucumber, red onion, tomatoes, macedonian feta, kalamata olives, yogurt, pickled red cabbage</p>
 
@@ -76,7 +76,7 @@ const DrinkContent = () =>{
             <div>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Wine</h1>
             </div>
-            <div className="mb-12">
+            <div className="mb-12 w3-animate-top">
                 <Slider {...settings}>
                     <div>
                         <img id="slides" src={"https://www.tasteofhome.com/wp-content/uploads/2019/04/Yellow-Hammer.jpg?resize=700,700"} alt="1"></img>
@@ -89,7 +89,7 @@ const DrinkContent = () =>{
                     </div>
                 </Slider>
             </div>
-            <div className="mb-0">
+            <div className="mb-0 w3-animate-left">
                 <h3 className="text-black font-mono text-1xl ml-12 mr-12">GRILLED DIJON SALMON  $29¼</h3>
                 <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">ocean wise™ lois lake steelhead, buttered mashed potatoes, roasted asparagus, soy-dijon butter sauce, cilantro</p>
 

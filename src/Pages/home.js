@@ -35,9 +35,9 @@ const linestyle={
 function Home () {
   return (
     <>
-      <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center">
-        <h1 className="mb-12 lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-white">Sunset Boulevard</h1>
-        <p className="mb-12 lg:text-2xl md:text-2xl sm:text-1xl text-white italic">"The last week in December the rains came."</p>
+      <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-bottom">
+        <h1 className="mb-12 lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-white w3-animate-top">Sunset Boulevard</h1>
+        <p className="mb-12 lg:text-2xl md:text-2xl sm:text-1xl text-white italic w3-animate-bottom">"The last week in December the rains came."</p>
       </div>
       <div style={background3style} className="mt-32 animate-fade-in-down flex flex-col justify-center items-center">
         <h1 className="mt-12 mb-12 lg:text-5xl md:text-3xl sm:text-3xl text-3xl text-black">About Sunset Boulevard</h1>
