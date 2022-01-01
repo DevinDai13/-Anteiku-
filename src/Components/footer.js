@@ -1,39 +1,44 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import {
-    HOME_URL,
-    MENU_URL,
-    ABOUT_URL,
-    CONTACT_URL,
-  } from "../url"
+
+//https://tailwindcomponents.com/component/responsive-footer
 
 const Footer = () =>{
     return(
         <>
-        <div className="flex justify-center items-center bg-black text-white">
-            <div className="m-auto text-white flex flex-wrap justify-center items-center">
-                <div className="p-5 w-48">
-                    <Link className="text-xs uppercase text-white font-medium" to={HOME_URL}>Home</Link>
+            <footer class="footer bg-black relative pt-1 border-b-2 border-blue-700">
+                <div class="container mx-auto px-6">
+                    <div class="sm:flex sm:mt-8">
+                        <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+                            <div class="flex flex-col">
+                                <span class="font-bold text-orange-500 uppercase mb-2">Footer header 1</span>
+                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">link 1</a></span>
+                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">link 1</a></span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="font-bold text-orange-500 uppercase mt-4 md:mt-0 mb-2">Footer header 2</span>
+                                <span class="my-2"><a href="#0" class="text-white text-md hover:text-blue-500">link 1</a></span>
+                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">link 1</a></span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="font-bold text-orange-500 uppercase mt-4 md:mt-0 mb-2">Footer header 3</span>
+                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">link 1</a></span>
+                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">link 1</a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="p-5 w-48">
-                    <Link className="text-xs uppercase text-white font-medium" to={ABOUT_URL}>About</Link>
+                <div class="container mx-auto px-6">
+                    <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+                        <div class="sm:w-2/3 text-center py-6">
+                            <p class="text-sm text-white font-bold mb-2">
+                                {'© '}
+                                {"Sunset Boulevard "}
+                                {new Date().getFullYear()}
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div className="p-5 w-48">
-                    <Link className="text-xs uppercase text-white font-medium" to={MENU_URL}>Menu</Link>
-                </div>
-                <div className="p-5 w-48">
-                    <Link className="text-xs uppercase text-white font-medium" to={CONTACT_URL}>Contact</Link>
-                </div>
-            </div> 
-        </div>
-
-        <div className="flex justify-center items-center bg-black text-white pb-3">
-            <div>
-                {'© '}
-                {"Sunset Boulevard "}
-                {new Date().getFullYear()}
-            </div>
-        </div>
+            </footer>
         </>
     )
 }

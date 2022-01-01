@@ -4,7 +4,7 @@ import './navbar.css';
 import {
     HOME_URL,
     MENU_URL,
-    ABOUT_URL,
+    TEAM_URL,
     CONTACT_URL,
   } from "../url"
   import logo from "../Images2/logonobg.png"
@@ -26,7 +26,7 @@ const Navbar = ({isOpen, toggle}) => {
                 <div className="pr-8 animate-fade-in-down md:block hidden">
                     <Link className="text-orange-500 p-4 hover:bg-gray-500 rounded focus:bg-gray-500" to={HOME_URL}>Home</Link>
                     <Link className="text-orange-500 p-4 hover:bg-gray-500 rounded focus:bg-gray-500" to={MENU_URL}>Menu</Link>
-                    <Link className="text-orange-500 p-4 hover:bg-gray-500 rounded focus:bg-gray-500" to={ABOUT_URL}>Team</Link>
+                    <Link className="text-orange-500 p-4 hover:bg-gray-500 rounded focus:bg-gray-500" to={TEAM_URL}>Team</Link>
                     <Link className="text-orange-500 p-4 hover:bg-gray-500 rounded focus:bg-gray-500" to={CONTACT_URL}>Contact</Link>
                 </div>
             </nav>
@@ -51,7 +51,7 @@ const Navbar = ({isOpen, toggle}) => {
                             </Link>
                         </li>
                         <li className="p-4">
-                            <Link className="p-6 flex hover:bg-gray-300 rounded-lg w3-animate-left" to={ABOUT_URL} onClick={toggle}>
+                            <Link className="p-6 flex hover:bg-gray-300 rounded-lg w3-animate-left" to={TEAM_URL} onClick={toggle}>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>

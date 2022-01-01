@@ -18,7 +18,7 @@ const background2style = {
   };
 
 //https://dev.to/michaelburrows/how-to-create-an-animated-flip-card-with-css-3d-transforms-4ckj
-function About () {
+function Team () {
 
 
   return (
@@ -66,4 +66,4 @@ function About () {
   )
 }
 
-export default About;
+export default Team;

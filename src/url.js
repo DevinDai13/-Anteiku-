@@ -8,4 +8,4 @@ export const HOST = host.concat("/");
 export const HOME_URL = "/";
 export const MENU_URL = "/menu/";
 export const CONTACT_URL = "/contact/";
-export const ABOUT_URL = "/about/";
+export const TEAM_URL = "/team/";

@@ -5,7 +5,7 @@ import Footer from './Components/footer';
 import {Routes, Route} from 'react-router';
 import Menu from './Pages/menu.js';
 import Contact from './Pages/contact.js';
-import About from './Pages/about.js';
+import Team from './Pages/team.js';
 import Home from './Pages/home.js';
 
 function App () {
@@ -36,7 +36,7 @@ function App () {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/menu" element={<Menu />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/team" element={<Team />} />
       </Routes>
       <Footer />
     </>
