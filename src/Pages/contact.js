@@ -11,7 +11,6 @@ import {
   TreeSelect,
 } from 'antd';
 
-
 //https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements
 const background1style = {
   backgroundImage: `url(${ contact })`,
