@@ -2,6 +2,11 @@ import React from "react";
 
 //https://tailwindcomponents.com/component/responsive-footer
 
+const la_url = "https://www.google.com/search?q=los+angeles&oq=los+an&aqs=chrome.0.0i355i433i512j46i433i512j0i131i433i512j69i57j0i131i433i512j46i199i433i465i512j46i131i433i512j46i433i512l2j46i512.2326j0j1&sourceid=chrome&ie=UTF-8"
+const lv_url = "https://www.google.com/search?q=las+vegas&ei=luLQYf33BdiIr7wP37Cs2AQ&gs_ssp=eJzj4tDP1TdILjMuN2D04sxJLFYoS01PLAYAQ2QGiw&oq=las&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCC4QsQMQQzIHCAAQyQMQQzIKCAAQsQMQgwEQQzIECAAQQzIECAAQQzIECAAQQzIHCC4QsQMQQzIECAAQQzIECAAQQzIECAAQQzoHCAAQRxCwAzoHCC4QsAMQQzoHCAAQsAMQQzoICAAQ5AIQsAM6CgguEMgDELADEEM6BAguEEM6CgguELEDEIMBEEM6CgguEMcBENEDEENKBAhBGABKBAhGGAFQ1A1Y6xBgyxVoBXACeACAAXKIAaYCkgEDMi4xmAEAoAEByAETwAEB&sclient=gws-wiz"
+const sy_url = "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwqzQ1N2D0YiuuTMlLrQQALUAFRg&q=sydney&oq=sydn&aqs=chrome.1.69i57j46i131i433i512j0i131i433i512j46i131i175i199i433i512j46i433i512j0i131i433i512j46i433i512j46i10i512j0i131i433i512j0i271.3786j0j9&sourceid=chrome&ie=UTF-8"
+const sh_url = "https://www.google.com/search?q=shanghai&ei=FuPQYemnBL-10PEPlLKNsAc&gs_ssp=eJzj4tDP1TcwK89KM2D04ijOSMxLz0jMBAA9gAZR&oq=shan&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCC4QsQMQQzIECC4QQzIHCAAQyQMQQzIECC4QQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIICC4QgAQQsQM6BwgAEEcQsAM6BwgAELADEEM6CAgAEOQCELADOgoILhDIAxCwAxBDOhAILhDHARDRAxDIAxCwAxBDOgoILhDHARCvARBDOgoILhDHARDRAxBDOgsIABCABBCxAxCDAUoECEEYAEoECEYYAVCnBVilCmDiDmgDcAJ4AIABb4gBkAOSAQMyLjKYAQCgAQHIARPAAQE&sclient=gws-wiz"
+
 const Footer = () =>{
     return(
         <>
@@ -17,10 +22,10 @@ const Footer = () =>{
                             </div>
                             <div class="flex flex-col">
                                 <span class="font-bold text-orange-500 uppercase mt-4 md:mt-0 mb-2">VISIT US</span>
-                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">Los Angeles</a></span>
-                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">Las Vegas</a></span>
-                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">Sydney</a></span>
-                                <span class="my-2"><a href="#0" class="text-white  text-md hover:text-blue-500">Shanghai</a></span>
+                                <span class="my-2"><a href={la_url} class="text-white  text-md hover:text-blue-500">Los Angeles</a></span>
+                                <span class="my-2"><a href={lv_url} class="text-white  text-md hover:text-blue-500">Las Vegas</a></span>
+                                <span class="my-2"><a href={sy_url} class="text-white  text-md hover:text-blue-500">Sydney</a></span>
+                                <span class="my-2"><a href={sh_url} class="text-white  text-md hover:text-blue-500">Shanghai</a></span>
                             </div>
                             <div class="flex flex-col">
                                 <span class="font-bold text-orange-500 uppercase mt-4 md:mt-0 mb-2">LEGAL</span>

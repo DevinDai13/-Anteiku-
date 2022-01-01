@@ -19,8 +19,6 @@ const background2style = {
 
 //https://dev.to/michaelburrows/how-to-create-an-animated-flip-card-with-css-3d-transforms-4ckj
 function Team () {
-
-
   return (
     <>
         <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-bottom">
