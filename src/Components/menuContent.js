@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "../Components/menuContent.css"
 import 'w3-css/w3.css';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const MenuContent = () =>{
 
@@ -17,11 +19,15 @@ const MenuContent = () =>{
         slidesToScroll: 1
       };
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
 
     return(
         <>
             <div>
-                <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Holiday Tasting Menus</h1>
+                <h1 className="w3-animate-top text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Holiday Tasting Menus</h1>
             </div>
             <div className="mb-12 w3-animate-top">
                 <Slider {...settings}>
@@ -37,20 +43,20 @@ const MenuContent = () =>{
                 </Slider>
             </div>
             <div className="mb-20 w3-animate-left">
-                <h3 className="text-black font-mono text-1xl ml-12 mr-12">THREE-COURSE MENU FOR TWO   $68</h3>
-                <p className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, two mains, and one dessert from our curated menu.</p>
-                <button href="#" className="ml-12 text-orange-500 italic text-sm underline mr-12" onClick={() => setShowModal1(true)}>See Menu</button>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mr-12">THREE-COURSE MENU FOR TWO   $68</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, two mains, and one dessert from our curated menu.</p>
+                <button data-aos={"fade-down"} href="#" className="ml-12 text-orange-500 italic text-sm underline mr-12" onClick={() => setShowModal1(true)}>See Menu</button>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">TWO-COURSE MENU FOR ONE   $35</h3>
-                <p className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, and one main from our curated menu.</p>
-                <button href="#" className="ml-12 mr-12 text-orange-500 italic text-sm underline" onClick={() => setShowModal2(true)}>See Menu</button>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mt-8 mr-12">TWO-COURSE MENU FOR ONE   $35</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 mr-12 font-mono text-sm italic text-gray-500 max-w-lg">Your choice of one starter, and one main from our curated menu.</p>
+                <button data-aos={"fade-down"} href="#" className="ml-12 mr-12 text-orange-500 italic text-sm underline" onClick={() => setShowModal2(true)}>See Menu</button>
             </div>
 
 
             <div>
-                <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Features</h1>
+                <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Features</h1>
             </div>
-            <div className="mb-12 w3-animate-top">
+            <div data-aos={"fade-down"} className="mb-12 w3-animate-top">
                 <Slider {...settings}>
                     <div>
                         <img id="slides" src={"https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200"} alt="1"></img>
@@ -64,20 +70,20 @@ const MenuContent = () =>{
                 </Slider>
             </div>
             <div className="mb-20 w3-animate-left">
-                <h3 className="text-black font-mono text-1xl ml-12 mr-12">THE MED BOWL  $24¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">turmeric rice, beetroot hummus, kale, cucumber, red onion, tomatoes, macedonian feta, kalamata olives, yogurt, pickled red cabbage</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mr-12">THE MED BOWL  $24¼</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">turmeric rice, beetroot hummus, kale, cucumber, red onion, tomatoes, macedonian feta, kalamata olives, yogurt, pickled red cabbage</p>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BANDARA SALAD  $22</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">fresh greens, cajun chicken breast, corn, tomatoes, chopped dates, feta, chow mein noodles, honey-lime vinaigrette</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BANDARA SALAD  $22</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">fresh greens, cajun chicken breast, corn, tomatoes, chopped dates, feta, chow mein noodles, honey-lime vinaigrette</p>
             
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PEPPERCORN STEAK  $46</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PEPPERCORN STEAK  $46</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
             </div>
 
             <div>
-                <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Mains</h1>
+                <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Mains</h1>
             </div>
-            <div className="mb-12 w3-animate-top">
+            <div data-aos={"fade-down"} className="mb-12 w3-animate-top">
                 <Slider {...settings}>
                     <div>
                         <img id="slides" src={"https://static.toiimg.com/thumb/82085026.cms?resizemode=4&width=1200"} alt="1"></img>
@@ -91,14 +97,14 @@ const MenuContent = () =>{
                 </Slider>
             </div>
             <div className="mb-0 w3-animate-left">
-                <h3 className="text-black font-mono text-1xl ml-12 mr-12">GRILLED DIJON SALMON  $29¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">ocean wise™ lois lake steelhead, buttered mashed potatoes, roasted asparagus, soy-dijon butter sauce, cilantro</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mr-12">GRILLED DIJON SALMON  $29¼</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">ocean wise™ lois lake steelhead, buttered mashed potatoes, roasted asparagus, soy-dijon butter sauce, cilantro</p>
 
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BUTTERNUT SQUASH RAVIOLI WITH PRAWNS  $29¼</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">chef rob feenie’s signature butternut squash and mascarpone ravioli, truffle butter, sautéed jumbo prawns, pine nuts, crispy sage</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mt-8 mr-12">BUTTERNUT SQUASH RAVIOLI WITH PRAWNS  $29¼</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">chef rob feenie’s signature butternut squash and mascarpone ravioli, truffle butter, sautéed jumbo prawns, pine nuts, crispy sage</p>
             
-                <h3 className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PRAWN SPAGHETTINI  $24½</h3>
-                <p className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">slow-roasted tomato sauce, chilies, fresh herbs, crostini</p>
+                <h3 data-aos={"fade-down"} className="text-black font-mono text-1xl ml-12 mt-8 mr-12">PRAWN SPAGHETTINI  $24½</h3>
+                <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">slow-roasted tomato sauce, chilies, fresh herbs, crostini</p>
             </div>
 
 
