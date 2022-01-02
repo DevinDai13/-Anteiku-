@@ -1,5 +1,7 @@
 .navbar-open{
-    background-color: rgb(241, 245, 245);
+    /*background-color: rgb(241, 245, 245);*/
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
     width: 100vw;
     height: 100vh;
     display: flex;
