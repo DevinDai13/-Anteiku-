@@ -4,6 +4,7 @@ import MenuContent from "../Components/menuContent";
 import DrinkContent from "./drinkContent";
 import DessertContent from "./dessertContent";
 import MenuHome from "../Components/menuHome";
+import {Link} from 'react-scroll'
 
 
 //https://www.youtube.com/watch?v=2_E5uoiLCLY
@@ -58,9 +59,9 @@ const HorizontalSlider = () =>{
             {showNav1 ? (
                 <>
                     <div className="wrapperFood">
-                        <button className="item">Holiday Tasting Menus</button>
-                        <button className="item">Features</button>
-                        <button className="item">Mains</button>
+                        <button className="item"><Link activeClass="active" to="holiday" spy={true} smooth={true}>Holiday Tasting Menus</Link></button>
+                        <button className="item"><Link to="features" spy={true} smooth={true}>Features</Link></button>
+                        <button className="item"><Link to="mains" spy={true} smooth={true}>Mains</Link></button>
                     </div>
                     <MenuContent />
                 </>
@@ -69,10 +70,10 @@ const HorizontalSlider = () =>{
             {showNav2 ? (
                 <>
                     <div className="wrapperDrinks">
-                        <button className="item">New and Seasonal</button>
-                        <button className="item">Cocktails</button>
-                        <button className="item">Wine</button>
-                        <button className="item">Beer</button>
+                        <button className="item"><Link activeClass="active" to="new" spy={true} smooth={true}>New and Seasonal</Link></button>
+                        <button className="item"><Link to="cocktail" spy={true} smooth={true}>Cocktails</Link></button>
+                        <button className="item"><Link to="wine" spy={true} smooth={true}>Wine</Link></button>
+                        <button className="item"><Link to="wine" spy={true} smooth={true}>Beer</Link></button>
                     </div>
                     <DrinkContent />
                 </>
@@ -83,11 +84,9 @@ const HorizontalSlider = () =>{
             {showNav3 ? (
                 <>
                     <div className="wrapperHappyHour">
-                        <button className="item">Cocktails</button>
-                        <button className="item">Beer</button>
+                        <button className="item"><Link activeClass="active" to="sweets" spy={true} smooth={true}>Sweets</Link></button>
+                        <button className="item"><Link to="cakes" spy={true} smooth={true}>Cakes</Link></button>
                         <button className="item">Wine</button>
-                        <button className="item">Food</button>
-                        <button className="item">Sunday</button>
                     </div>
                     <DessertContent />
                 </>

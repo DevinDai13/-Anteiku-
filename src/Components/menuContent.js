@@ -26,7 +26,7 @@ const MenuContent = () =>{
 
     return(
         <>
-            <div>
+            <div id='holiday'>
                 <h1 className="w3-animate-top text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Holiday Tasting Menus</h1>
             </div>
             <div className="mb-12 w3-animate-top">
@@ -53,7 +53,7 @@ const MenuContent = () =>{
             </div>
 
 
-            <div>
+            <div id='features'>
                 <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Features</h1>
             </div>
             <div data-aos={"fade-down"} className="mb-12 w3-animate-top">
@@ -80,7 +80,7 @@ const MenuContent = () =>{
                 <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
             </div>
 
-            <div>
+            <div id='mains'>
                 <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Mains</h1>
             </div>
             <div data-aos={"fade-down"} className="mb-12 w3-animate-top">

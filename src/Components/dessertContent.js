@@ -26,7 +26,7 @@ const DessertContent = () =>{
 
     return(
         <>
-            <div>
+            <div id='sweets'>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Sweets</h1>
             </div>
             <div className="mb-12 w3-animate-top">
@@ -53,7 +53,7 @@ const DessertContent = () =>{
             </div>
 
 
-            <div>
+            <div id='cakes'>
                 <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Cakes</h1>
             </div>
             <div data-aos={"fade-down"} className="mb-12 w3-animate-top">

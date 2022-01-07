@@ -50,7 +50,7 @@ function Contact () {
       <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-right">
         <h1 className="mb-12 lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-white w3-animate-top">Contact Us</h1>
       </div>
-      <div style={background3style} className="mt-32 animate-fade-in-down ml-32 mr-32 justify-center items-center w3-animate-left">
+      <div style={background3style} className="mt-32 mb-32 animate-fade-in-down ml-32 mr-32 justify-center items-center w3-animate-left">
             <Form
                 labelCol={{span: 4,}}
                 wrapperCol={{span: 10,}}

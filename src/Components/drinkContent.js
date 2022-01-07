@@ -25,7 +25,7 @@ const DrinkContent = () =>{
 
     return(
         <>
-            <div>
+            <div id='new'>
                 <h1 className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">New and Seasonal</h1>
             </div>
             <div className="mb-12 w3-animate-top">
@@ -52,7 +52,7 @@ const DrinkContent = () =>{
             </div>
 
 
-            <div>
+            <div id='cocktail'>
                 <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Cocktails</h1>
             </div>
             <div data-aos={"fade-down"} className="mb-12 w3-animate-top">
@@ -79,7 +79,7 @@ const DrinkContent = () =>{
                 <p data-aos={"fade-down"} className="ml-12 mt-2 font-mono text-sm italic text-gray-500 max-w-lg mr-12">12oz certified angus beef® striploin, chef rob feenie’s pernod peppercorn demi-glace, buttered mashed potatoes, roasted asparagus</p>
             </div>
 
-            <div>
+            <div id='wine'>
                 <h1 data-aos={"fade-down"} className="text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Wine</h1>
             </div>
             <div data-aos={"fade-down"} className="mb-12 w3-animate-top">
