@@ -41,13 +41,13 @@ const HorizontalSlider = () =>{
     return(
         <div>
             <nav className="ml-12 mr-12 flex justify-between items-center text-black relative font-mono bg-transparent">
-                <div href="#0" onClick={toggle1} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
+                <div href="#0" onClick={toggle1} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-orange-300 cursor-pointer font-bold bg-orange-200">
                     Food
                 </div>
-                <div href="#0" onClick={toggle2} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
+                <div href="#0" onClick={toggle2} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-orange-300 cursor-pointer font-bold bg-orange-200">
                     Drinks
                 </div>
-                <div href="#0" onClick={toggle3} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-white bg-transparent cursor-pointer font-bold">
+                <div href="#0" onClick={toggle3} className="mt-2 rounded text-center w-1/3 p-6 hover:bg-orange-300 cursor-pointer font-bold bg-orange-200">
                     Desserts
                 </div>
             </nav>

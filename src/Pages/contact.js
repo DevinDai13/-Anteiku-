@@ -18,6 +18,7 @@ const background1style = {
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
+  borderRadius:'0px 0px 90px 90px',
 };
 
 const background3style = {

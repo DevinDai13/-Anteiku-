@@ -10,13 +10,14 @@ const background3style = {
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   height: '100vh',
+  borderRadius:'90px 90px 0px 0px',
 };
 
 
 const menuHome = () => {
   return (
     <>
-      <div style={background3style} className="animate-fade-in-down flex flex-col justify-center items-center">
+      <div style={background3style} className="mt-12 animate-fade-in-down flex flex-col justify-center items-center">
         <h1 className="mb-12 ml-24 mr-24 lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-black w3-animate-left">Menu</h1>
         <p className="mb-12 ml-24 mr-24 lg:text-2xl md:text-2xl sm:text-1xl text-black italic w3-animate-right">"Life is a menu. What you order is what is delivered to the table."</p>
       </div>

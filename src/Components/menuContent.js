@@ -7,6 +7,12 @@ import 'w3-css/w3.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
+const bg1style = {
+    backgroundImage: `linear-gradient(315deg, #f9d29d 0%, #ffd8cb 20%)`,
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  };
+
 const MenuContent = () =>{
 
     const [showModal1, setShowModal1] = React.useState(false);
@@ -25,7 +31,7 @@ const MenuContent = () =>{
     }, []);
 
     return(
-        <>
+        <div>
             <div id='holiday'>
                 <h1 className="w3-animate-top text-orange-500 font-mono lg:text-3xl md:text-3xl sm:text-3xl h-16 ml-12 mt-8">Holiday Tasting Menus</h1>
             </div>
@@ -197,7 +203,7 @@ const MenuContent = () =>{
                 <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
                 </>
             ) : null}
-        </>
+        </div>
         
     )
 }

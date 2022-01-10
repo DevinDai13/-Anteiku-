@@ -12,6 +12,7 @@ const background1style = {
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
+  borderRadius:'0px 0px 90px 90px',
 };
 
 /*const background2style = {
@@ -29,6 +30,7 @@ const background3style = {
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   height: '100vh',
+  borderRadius:'90px 90px 0px 0px',
 };
 
 const linestyle={
