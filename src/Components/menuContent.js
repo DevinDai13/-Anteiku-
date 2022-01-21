@@ -7,11 +7,6 @@ import 'w3-css/w3.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
-const bg1style = {
-    backgroundImage: `linear-gradient(315deg, #f9d29d 0%, #ffd8cb 20%)`,
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
 
 const MenuContent = () =>{
 

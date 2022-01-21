@@ -1,12 +1,15 @@
 import './App.css';
 import React, {useState, useEffect} from "react";
-import Navbar from './Components/navbar';
-import Footer from './Components/footer';
 import {Routes, Route} from 'react-router';
 import Menu from './Pages/menu.js';
 import Contact from './Pages/contact.js';
 import Team from './Pages/team.js';
-import Home from './Pages/home.js';
+import NavbarV2 from './Components/navbarV2';
+import HomeV2 from './Pages/homeV2.js';
+import FooterV2 from './Components/footerV2';
+import ScrollToTop from './Components/scrollToTop';
+
+//https://www.youtube.com/watch?v=eOV2tx1aJZA
 
 function App () {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,14 +34,15 @@ function App () {
 
   return (
     <>
-      <Navbar isOpen={isOpen} toggle={toggle}/>
+      <ScrollToTop />
+      <NavbarV2 isOpen={isOpen} toggle={toggle}/>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<HomeV2 />} />
         <Route exact path="/menu" element={<Menu />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/team" element={<Team />} />
       </Routes>
-      <Footer />
+      <FooterV2 />
     </>
   )
 

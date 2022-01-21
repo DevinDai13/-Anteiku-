@@ -7,7 +7,9 @@ const background1style = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    borderRadius:'0px 0px 90px 90px',
+    borderRadius:'90px 90px 90px 90px',
+    marginLeft: '2%',
+    marginRight: '2%',
 };
 
 const background2style = {
