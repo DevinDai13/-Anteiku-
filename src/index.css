@@ -49,3 +49,9 @@ section {
     opacity: 1 !important;
     right: 0 !important;
 }
+
+.showLeft {
+  visibility: visible !important;
+  opacity: 1 !important;
+  left: 0 !important;
+}
