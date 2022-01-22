@@ -55,3 +55,9 @@ section {
   opacity: 1 !important;
   left: 0 !important;
 }
+
+.showBottom {
+  visibility: visible !important;
+  opacity: 1 !important;
+  bottom: 0 !important;
+}
