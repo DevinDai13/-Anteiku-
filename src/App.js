@@ -10,6 +10,7 @@ import FooterV2 from './Components/footerV2';
 import ScrollToTop from './Components/scrollToTop';
 
 //https://www.youtube.com/watch?v=eOV2tx1aJZA
+//https://github.com/koolkishan/food-yummy-reactjs-food-website/tree/master/src
 
 function App () {
   const [isOpen, setIsOpen] = useState(false);

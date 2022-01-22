@@ -51,7 +51,7 @@ import {
       }
     }
   }
-  @media screen and (min-width: 260px) and (max-width: 1080px) {
+  @media screen and (min-width: 260px) and (max-width: 600px) {
     .brand {
       display: flex;
       justify-content: space-between;
@@ -85,6 +85,7 @@ const ResponsiveNav = styled.div`
   visibility: hidden;
   h3 {
     color: white;
+    margin-left: 0.5rem;
   }
   ul {
     list-style-type: none;
