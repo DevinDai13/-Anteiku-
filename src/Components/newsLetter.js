@@ -7,8 +7,6 @@ import "aos/dist/aos.css";
 const Section = styled.section`
   margin-left: 3%;
   margin-right: 3%;
-  border: 0.2rem solid tomato;
-  border-radius: 90px;
   padding: 4rem;
   display: flex;
   flex-direction: column;

@@ -16,6 +16,7 @@ import {
   display: flex;
   top: -50px;
   justify-content: space-between;
+  positoin: fixed;
   align-items: center;
   padding: 0 4vw;
   .brand {
@@ -154,25 +155,29 @@ const ResponsiveNavBottom = styled.div`
 
 function NavbarV2() {
     const [navbarState, setNavbarState] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
 
     const html = document.querySelector("html");
     html.addEventListener("click", () => setNavbarState(false));
 
+    const listenScrollEvent = () => {
+      if (window.scrollY < 73) {
+        return setIsScrolled(false);
+      } else if (window.scrollY > 70) {
+        return setIsScrolled(true);
+      } 
+    }
+
     useEffect(() => {
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function(){
-      var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos)
-          document.getElementById("navbar").style.top = "0";
-        else 
-          document.getElementById("navbar").style.top = "-50px";
-        prevScrollpos = currentScrollPos;
-      }
-    })
+      window.addEventListener('scroll', listenScrollEvent);
+    
+      return () =>
+        window.removeEventListener('scroll', listenScrollEvent);
+    }, []);
     
     return (
-      <div>
-        <Nav id="navbar" className="h-20 text-xl">
+      <div className={`fixed z-10 w-screen ${isScrolled ? "bg-orange-200" : "bg-transparent"}`}>
+        <Nav className="h-20 text-xl" >
           <div className="brand">
             <h3 className="text-2xl">SUNSET BOULEVARD</h3>
             <div className="toggle">
