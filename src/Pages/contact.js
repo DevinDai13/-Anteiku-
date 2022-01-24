@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import contact from "../Images2/contact.jpg";
+import contact2 from "../Images2/contact2.jpg";
 import 'antd/dist/antd.css';
 import styled from "styled-components";
 import { TitleStyles } from "../Components/reusableStyles";
@@ -15,14 +15,12 @@ import {
 
 //https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements
 const background1style = {
-  backgroundImage: `url(${ contact })`,
+  backgroundImage: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${ contact2 })`,
   height: '30vh', 
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
-  borderRadius:'90px 90px 90px 90px',
-  marginLeft: '2%',
-  marginRight: '2%',
+  borderRadius:'0px 0px 90px 90px',
 };
 
   const Section = styled.section`

@@ -1,15 +1,13 @@
 import React from "react";
-import team from "../Images2/team.jpg";
+import team4 from "../Images2/team4.jpg";
 
 const background1style = {
-    backgroundImage: `linear-gradient(rgba(255,255,255,0.13), rgba(255,255,255,0.13)),url(${ team })`,
+    backgroundImage: `linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)),url(${ team4 })`,
     height: '30vh', 
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    borderRadius:'90px 90px 90px 90px',
-    marginLeft: '2%',
-    marginRight: '2%',
+    borderRadius:'0px 0px 90px 90px',
 };
 
 const background2style = {

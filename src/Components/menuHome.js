@@ -1,11 +1,11 @@
 import React from "react";
-import beach from "../Images2/beach.jpg";
 import 'w3-css/w3.css';
+import menu from "../Images2/menu.jpg"
 
 //https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements
 
 const background3style = {
-  backgroundImage: `linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(${ beach })`,
+  backgroundImage: `linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(${ menu })`,
   backgroundRepeat  : 'no-repeat',
   backgroundPosition: 'center',
   backgroundSize: 'cover',
