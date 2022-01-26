@@ -5,6 +5,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Newsletter from "../Components/newsLetter";
 import Portfolio from "../Components/portfolio";
+import Services from "../Components/services";
 
 
 const mainbackgroundstyle = {
@@ -13,11 +14,10 @@ const mainbackgroundstyle = {
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
-  borderRadius:'70px 70px 70px 70px',
+  borderRadius:'0px 0px 70px 70px',
 };
 
 const Section = styled.section`
-
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -101,6 +101,7 @@ function HomeV2 () {
         </div>
       </Section>
 
+      <Services />
       <Portfolio />
       <Newsletter />
     

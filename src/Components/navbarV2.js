@@ -156,6 +156,11 @@ const ResponsiveNavBottom = styled.div`
 function NavbarV2() {
     const [navbarState, setNavbarState] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const [homeClicked, setHomeClicked] = useState(true);
+    const [menuClicked, setMenuClicked] = useState(false);
+    const [teamClicked, setTeamClicked] = useState(false);
+    const [contactClicked, setContactClicked] = useState(false);
+
 
     const html = document.querySelector("html");
     html.addEventListener("click", () => setNavbarState(false));
@@ -194,7 +199,7 @@ function NavbarV2() {
             </div>
           </div>
           <ul className="links">
-            <li><a href={HOME_URL}>Home</a></li>
+            <li><a href={HOME_URL} className="active">Home</a></li>
             <li><a href={MENU_URL}>Menu</a></li>
             <li><a href={TEAM_URL}>Team</a></li>
             <li><a href={CONTACT_URL}>Contact</a></li>
