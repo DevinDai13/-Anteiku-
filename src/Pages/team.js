@@ -33,7 +33,7 @@ function Team () {
         <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-bottom">
         </div>
         <div className="mt-24 content-center">
-            <h1 data-aos={"fade-left"} className="flex flex-col justify-center items-center text-orange-300">
+            <h1 data-aos={"fade-left"} className="flex flex-col justify-center items-center text-orange-300 text-3xl">
                 MEET THE TEAM
             </h1>
         </div>

@@ -1,13 +1,12 @@
 import React from "react";
-import HorizontalSlider from "../Components/horizontalSlider";
+import MenuV2 from "../Components/menuV2";
 
 
 function Menu () {
 
-
   return (
       <div className="animate-fade-in-down">
-        <HorizontalSlider/>
+        <MenuV2 />
       </div>
   )
 }
