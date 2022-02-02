@@ -1,5 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
 import team4 from "../Images2/team4.jpg";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const background1style = {
     backgroundImage: `linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)),url(${ team4 })`,
@@ -20,12 +22,21 @@ const background2style = {
 
 //https://dev.to/michaelburrows/how-to-create-an-animated-flip-card-with-css-3d-transforms-4ckj
 function Team () {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+        }, []);
+
   return (
     <>
         <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-bottom">
-            <h1 className="mb-12 rounded lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-black w3-animate-right">Our Team</h1>
         </div>
-
+        <div className="mt-24 content-center">
+            <h1 data-aos={"fade-left"} className="flex flex-col justify-center items-center text-orange-300">
+                MEET THE TEAM
+            </h1>
+        </div>
         <div style={background2style} class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
             <div className="rounded overflow-auto shadow-lg w3-animate-left">
                 <img className="w-full" src={"https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002566/img/basic/a0002566_main.jpg?20201027184855&q=80&rw=750&rh=536"} alt="Mountain" />

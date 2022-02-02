@@ -5,7 +5,8 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 const Section = styled.section`
-  margin: 4rem 6rem;
+  margin-left: 3%;
+  margin-right: 3%;
   margin-top: 10rem;
   margin-bottom: 10rem;
   ${TitleStyles};

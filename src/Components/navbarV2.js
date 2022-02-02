@@ -156,35 +156,6 @@ const ResponsiveNavBottom = styled.div`
 function NavbarV2() {
     const [navbarState, setNavbarState] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
-    const [homeClicked, setHomeClicked] = useState(true);
-    const [menuClicked, setMenuClicked] = useState(false);
-    const [teamClicked, setTeamClicked] = useState(false);
-    const [contactClicked, setContactClicked] = useState(false);
-
-    const handleHome = (event) => {
-      setHomeClicked(true);
-      setMenuClicked(false);
-      setTeamClicked(false);
-      setContactClicked(false);
-    }
-    const handleMenu = (event) => {
-      setHomeClicked(false);
-      setMenuClicked(true);
-      setTeamClicked(false);
-      setContactClicked(false);
-    }
-    const handleTeam = (event) => {
-      setHomeClicked(false);
-      setMenuClicked(false);
-      setTeamClicked(true);
-      setContactClicked(false);
-    }
-    const handleContact = (event) => {
-      setHomeClicked(false);
-      setMenuClicked(false);
-      setTeamClicked(false);
-      setContactClicked(true);
-    }
 
 
     const html = document.querySelector("html");
@@ -224,10 +195,10 @@ function NavbarV2() {
             </div>
           </div>
           <ul className="links">
-            <li><a href={HOME_URL} onClick={handleHome} className={homeClicked ? "active" : ""}>Home</a></li>
-            <li><a href={MENU_URL} onClick={handleMenu} className={menuClicked ? "active" : ""}>Menu</a></li>
-            <li><a href={TEAM_URL} onClick={handleTeam} className={teamClicked ? "active" : ""}>Team</a></li>
-            <li><a href={CONTACT_URL} onClick={handleContact} className={contactClicked ? "active" : ""}>Contact</a></li>
+            <li><a href={HOME_URL}>Home</a></li>
+            <li><a href={MENU_URL}>Menu</a></li>
+            <li><a href={TEAM_URL}>Team</a></li>
+            <li><a href={CONTACT_URL}>Contact</a></li>
           </ul>
         </Nav>
 

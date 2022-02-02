@@ -91,7 +91,6 @@ function Contact () {
   return (
     <div>
       <div style={background1style} className="animate-fade-in-down flex flex-col justify-center items-center w3-animate-right">
-        <h1 className="mb-12 lg:text-7xl md:text-5xl sm:text-3xl text-3xl text-white w3-animate-top">Contact Us</h1>
       </div>
       <Section id="newsletter" data-aos={"fade-bottom"}>
       <div className="title">
