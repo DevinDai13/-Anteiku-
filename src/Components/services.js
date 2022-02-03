@@ -22,7 +22,7 @@ const Section = styled.section`
       gap: 1.5vw;
       padding: 0 3vw;
       img {
-        height: 25rem;
+        height: 20rem;
         border-radius: 20px;
       }
       p {
