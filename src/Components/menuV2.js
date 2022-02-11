@@ -11,6 +11,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
+const bgstyle1 = {
+  backgroundImage: 'url(https://www.tasteofhome.com/wp-content/uploads/2019/04/Yellow-Hammer.jpg?resize=700,700)',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  height: '30vh',
+};
+
 const MenuV2 = () => {
   const [menuItems, setMenuItems] = useState(items);
   const [activeCategory, setActiveCategory] = useState("");
@@ -52,17 +60,15 @@ const MenuV2 = () => {
           filterItems={filterItems}
         />
         <div className="mb-32 w3-animate-top">
-                <Slider {...settings}>
-                    <div>
-                        <img className="rounded-2xl h-100 w-100" id="slides" src={"https://www.tasteofhome.com/wp-content/uploads/2019/04/Yellow-Hammer.jpg?resize=700,700"} alt="1"></img>
-                    </div>
-                    <div>
-                        <img className="rounded-2xl h-100 w-100" id="slides" src={"https://www.blossmangas.com/wp-content/uploads/2020/05/Lemonade-1-1.jpg"} alt="1"></img>
-                    </div>
-                    <div>
-                        <img className="rounded-2xl h-100 w-100" id="slides" src={"https://www.brit.co/media-library/this-citrus-champagne-punch-on-a-red-checkered-plate-with-a-slice-of-grapefruit-highlights-our-list-of-top-summer-cocktails.jpg?id=20911519&width=600&coordinates=0%2C0%2C0%2C0&height=600"} alt="1"></img>
-                    </div>
-                </Slider>
+          <Slider {...settings}>
+              <div style={bgstyle1}></div>
+              <div>
+                  <img className="rounded-2xl h-100 w-100" id="slides" src={"https://www.blossmangas.com/wp-content/uploads/2020/05/Lemonade-1-1.jpg"} alt="1"></img>
+              </div>
+              <div>
+                  <img className="rounded-2xl h-100 w-100" id="slides" src={"https://www.brit.co/media-library/this-citrus-champagne-punch-on-a-red-checkered-plate-with-a-slice-of-grapefruit-highlights-our-list-of-top-summer-cocktails.jpg?id=20911519&width=600&coordinates=0%2C0%2C0%2C0&height=600"} alt="1"></img>
+              </div>
+          </Slider>
         </div>
         <SubMenu items={menuItems}/>
       </section>

@@ -36,6 +36,7 @@ function Team () {
             <h1 data-aos={"fade-left"} className="flex flex-col justify-center items-center text-orange-300 text-3xl">
                 MEET THE TEAM
             </h1>
+            <div data-aos={"fade-down"} className="underline"></div>
         </div>
         <div style={background2style} class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
             <div className="rounded overflow-auto shadow-lg w3-animate-left">

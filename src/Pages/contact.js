@@ -95,7 +95,8 @@ function Contact () {
       <Section id="newsletter" data-aos={"fade-bottom"}>
       <div className="title">
         <h1 data-aos={"fade-bottom"}>
-          <span>LEAVE US A MESSAGE</span> 
+          <span>LEAVE US A MESSAGE</span>
+          <div data-aos={"fade-down"} className="underline"></div> 
         </h1>
         <Form
                 labelCol={{span: 4,}}
